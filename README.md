@@ -7,7 +7,7 @@
 Basic Javascript up to Word Blanks
 
 ## Week 2
-Basic Javascript up to Stand in Line
+Basic Javascript up to Stand in Line (big week!)
 
 ## Week 3
 Complete all of Basic Javascript
