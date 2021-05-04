@@ -14,7 +14,9 @@
 
 - opening the console
 - adding a script tag
+- getting it to say hello
 - simple dynamic form that captures the input and displays it
+- getting it to say how old you were ten years ago
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
 ```
