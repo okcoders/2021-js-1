@@ -1,5 +1,8 @@
 ## Notes for what to cover
 
+- half of it by wednesday, other half on saturday
+- class will be ~ half me going through content and clarifications/questions other half application to real world
+
 - why do we need javascript (pitchfork example)
     - make pages dynamic
 - javascript and the rest of the programming languages

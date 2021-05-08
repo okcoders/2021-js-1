@@ -1,0 +1,49 @@
+<html>
+    <head><title>hello world!</title></head>
+    <body>
+
+    <p>Hello world Program!</p>
+    <div>
+        <label>First Name:</label>
+    <input id="firstName" type="text">
+    </div>
+    <div>
+        <label>Last Name:</label>
+    <input type="text">
+    </div>
+
+    </body>
+    <script>
+        console.log("Hello World!")
+
+        // undefined
+
+        // primitive data types
+        // Boolean
+        true
+        false
+        // string
+        "Zach"
+        console.log('Zach said: "Hello"')
+
+        var firstName = "Zach"
+        var lastName = "Mays"
+        var message = "Hello " + firstName + " " + lastName + " Welcome to the world"
+        console.log(message)
+
+        // number
+        var testNumber = 9.1
+        var testNumber2 = 9.0
+        var total = testNumber + testNumber2
+        console.log(total)
+
+        console.log(firstName + testNumber2)
+
+        var firstNameInput = document.getElementById("firstName")
+        firstNameInput.addEventListener('input', (e) => {
+            console.log(e.target.value)
+        })
+
+    </script>
+
+</html>
