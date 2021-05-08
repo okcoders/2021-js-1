@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            in class exercise
+        </title>
+    </head>
+    <body>
+        <p>
+            Welcome to my program! Put your age, and I will tell you some cool facts about it!
+        </p>
+        <div>
+            <label>Your Age: </label>
+            <input id="ageInput" type="number">
+        </div>
+        <p id="coolFacts"></p>
+        <script>
+            var ageInput = document.getElementById("ageInput")
+            ageInput.addEventListener('input', (e) => {
+                var inputValue = e.target.value
+
+                var canServeInTheMilitary = inputValue >= 18
+                var canVote = inputValue > 17
+                var canDrink = inputValue > 21
+                var ageIsEven = inputValue % 2 == 0
+
+                var paragraph = document.getElementById("coolFacts")
+                var stringToAdd = ""
+                stringToAdd = stringToAdd +  "Can you server in the military?: " + canServeInTheMilitary + ". "
+                stringToAdd = stringToAdd + "Can you vote?: " + canVote + ". "
+                stringToAdd = stringToAdd + "Can you drink?: " + canDrink + ". "
+                stringToAdd = stringToAdd + "Is your age even?: " + ageIsEven
+                paragraph.innerHTML = stringToAdd
+            })
+        </script>
+    </body>
+</html>
