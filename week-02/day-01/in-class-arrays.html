@@ -1,0 +1,58 @@
+<html>
+    <head>
+<title>In Class Arrays</title>
+    </head>
+    <body>
+        <div>
+            <label>First Name: </label>
+            <input type="text" id="firstName">
+        </div>
+        <div>
+            <label>Last Name: </label>
+            <input type="text" id="lastName">
+        </div>
+        <div>
+            <p>Do you have any pets?</p>
+            <div id="petInputHolder"></div>
+            <button id="addPetButton">Add Pet</button>
+        </div>
+        <script>
+            var firstName = document.getElementById("firstName")
+            var lastName = document.getElementById("lastName")
+            console.log(firstName)
+
+            // in class notes
+            var firstListItem = "Learn to code"
+            var secondListItem = "Clean the house"
+            var myTodoList = [ "Learn to code", "clean the house" ]
+            var firstItem = myTodoList[0]
+            var lastItem = myTodoList[myTodoList.length - 1]
+            var missingItem = myTodoList[myTodoList.length]
+            // var missingItem = myTodoList[2]
+            console.log(missingItem)
+
+            // myTodoList[99] = "Throw a party"
+
+            myTodoList.push("do laundry")
+            console.log(myTodoList)
+
+            var resultOfPop = myTodoList.pop()
+            console.log(resultOfPop)
+            console.log(myTodoList)
+
+            var ages = [64, 4, 32, 26, 8]
+            console.log(ages)
+            var sortedAges = ages.sort((a, b) => a - b)
+            console.log(ages)
+
+            // code for pet adder
+
+            var addPetButton = document.getElementById("addPetButton")
+            addPetButton.addEventListener("click", () => {
+                // what do we want to do on click
+            })
+
+
+        </script>
+    </body>
+</html>
