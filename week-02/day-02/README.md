@@ -1,7 +1,7 @@
 ### exercise
 
 - new folder, open in vscode, new html file, open in live server
-- add button that says add pet
+- add button that says "add pet"
 - in your js script tag, document.getElementById that button
 
 ### Functions!
