@@ -10,7 +10,7 @@ Basic Javascript up to Word Blanks
 Basic Javascript up to Stand in Line (big week!)
 
 ## Week 3
-Complete all of Basic Javascript
+Complete all of Basic Javascript (Don't do switches or recursion)
 
 ## Week 4
 All of ES6 and Basic Data Structures
