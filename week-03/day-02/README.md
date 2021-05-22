@@ -8,14 +8,16 @@
 
 ### Objects
 
+- spreadhseet with one column, make it an object
 - spreadsheet with rows and columns
-- can be indefinitely nested though
+- can be indefinitely nested though - tags example
 - class roster spreadsheet, with language tags, convert to array of objects
 - reading nested lookups (grab third students first language tag)
 
 ### Homework
 
 - up to and including nesting for loops
+- don't do recursion stuff
 - fizzbuzz exercise: 
     - console log the numbers 1 to 100
     - if the number is divisible by 3, print fizz instead of the number
