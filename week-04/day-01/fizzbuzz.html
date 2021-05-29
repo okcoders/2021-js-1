@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fizzbuzz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div id="fizzbuzz">
+
+    </div>
+    
+    <script>
+        var container = document.getElementById("fizzbuzz")
+        for(var i = 1; i <= 100; i++) {
+            var textForIteration = i
+            if (i % 15 === 0) {
+                textForIteration = "fizzbuzz"
+                console.log(i, textForIteration)
+            } else if (i % 5 === 0) {
+                textForIteration = "buzz"
+                console.log(i, textForIteration)
+            } else if (i % 3 === 0) {
+                textForIteration = "fizz"
+                console.log(i, textForIteration)
+            } else {
+                console.log(textForIteration)
+            }
+            // var result = document.createElement("p")
+            // result.innerText = textForIteration
+            // container.appendChild(result)
+        }
+    </script>
+</body>
+</html>
